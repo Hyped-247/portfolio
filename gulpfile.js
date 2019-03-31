@@ -1,7 +1,7 @@
 "use strict";
 
 // Load plugins
-// const autoprefixer = require("gulp-autoprefixer");
+const autoprefixer = require("gulp-autoprefixer");
 const browsersync = require("browser-sync").create();
 const cleanCSS = require("gulp-clean-css");
 const del = require("del");
@@ -12,6 +12,8 @@ const plumber = require("gulp-plumber");
 const rename = require("gulp-rename");
 const sass = require("gulp-sass");
 const uglify = require("gulp-uglify");
+
+
 
 // Load package.json for banner
 const pkg = require('./package.json');
@@ -29,7 +31,7 @@ const banner = ['/*!\n',
 function browserSync(done) {
   browsersync.init({
     server: {
-      baseDir: "./"
+      baseDir: "*"
     },
     port: 3000
   });
