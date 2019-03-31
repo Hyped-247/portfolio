@@ -1,5 +1,5 @@
 /*!
- * Start Bootstrap - Portfolio v5.0.6 (https://startbootstrap.com/template-overviews/grayscale)
+ * Start Bootstrap - Portfolio v5.0.6 ()
  * Copyright 2013-2019 Mohammad Mahjoub
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-grayscale/blob/master/LICENSE)
  */
