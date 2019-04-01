@@ -3,8 +3,10 @@
     "name": "startbootstrap-grayscale",
     "version": "5.0.6",
     "scripts": {
-        "prestart": "next build",
-        "start": "next start -p ${PORT}"
+        "dev": "node server.js",
+        "build": "next build",
+        "postinstall": "npm run build",
+        "start": "NODE_ENV=production node gulpfile.js"
     },
     "engines": {
     "node": "10.13.0"
